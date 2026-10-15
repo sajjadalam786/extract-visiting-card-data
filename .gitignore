@@ -1,0 +1,25 @@
+# OS & System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Compiled OCR binary (rebuilt automatically from batch_ocr.m via run_extraction.sh)
+card_extractor/batch_ocr
+
+# Raw visiting card photos
+Pettorque/*.jpg
+Pettorque/*.jpeg
+Pettorque/*.png
+*.jpg
+*.jpeg
+*.png
+
+# Temporary OCR dumps
+temp_ocr_results.json
+card_extractor/temp_ocr_results.json
+*.tmp
